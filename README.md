@@ -2,7 +2,7 @@
 
 Thenable is a PHP interface that facilitates interoperability between differing implementations of promises and futures.
 
-The interface defines a single method, `then()` which is used to define callbacks that are invoked when the thenable is resolved. The value returned or exception thrown by the invoked callback should be used to fulfill or reject the returned thenable.
+The interface defines a single method `then()`, which is used to define callbacks that are invoked when the thenable is resolved. The value returned or exception thrown by the invoked callback should be used to fulfill or reject the returned thenable.
 
 ```php
 \Thenable\Thenable $thenable->then(
@@ -13,11 +13,7 @@ The interface defines a single method, `then()` which is used to define callback
 
 ### Promises and Futures
 
-For more information on promises, please see the [Promises/A+ JavaScript specification](https://promisesaplus.com) and the [Promise API documentation](//github.com/icicleio/Icicle/wiki/Promises) of [Icicle](//github.com/icicleio/Icicle), a library for writing asynchronous PHP applications.
-
-### Design Goals
-
-This project is intended to become a proposal to the [PHP-FIG](http://www.php-fig.org) to create a PSR for a common interface that may be used by promises and futures to facilitate interoperability between implementations.
+For more information on promises, please see the [Promises/A+ JavaScript specification](https://promisesaplus.com) and the [Promise API documentation](https://github.com/icicleio/Icicle/wiki/Promises) of [Icicle](https://github.com/icicleio/Icicle), a library for writing asynchronous PHP applications.
 
 ##### Requirements
 
@@ -39,7 +35,7 @@ You can also manually edit `composer.json` to add this library as a project requ
 // composer.json
 {
     "require": {
-        "thenable/thenable": "0.2.*"
+        "thenable/thenable": "^0.2"
     }
 }
 ```
