@@ -21,7 +21,7 @@ This project is intended to become a proposal to the [PHP-FIG](http://www.php-fi
 
 ##### Requirements
 
-PHP 5.3+
+PHP 5.4+
 
 ##### Installation
 
