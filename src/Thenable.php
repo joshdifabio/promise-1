@@ -2,7 +2,7 @@
 namespace Thenable;
 
 /**
- * Common thenable interface that should be implemented by promises and futures.
+ * Thenable is a common interface to facilitate interoperability between promise and future implementations.
  */
 interface Thenable
 {
@@ -14,7 +14,7 @@ interface Thenable
      * @param callable|null $onFulfilled Called with the fulfillment value of the thenable.
      * @param callable|null $onRejected Called with the exception used to reject the thenable.
      *
-     * @return \Thenable\Thenable
+     * @return Thenable
      */
     public function then(callable $onFulfilled = null, callable $onRejected = null);
 }
