@@ -1,5 +1,5 @@
 {
-    "name": "thenable/thenable",
+    "name": "thenable/promise",
     "description": "Common PHP interface for interoperability between promise implementations.",
     "keywords": [
         "then",
