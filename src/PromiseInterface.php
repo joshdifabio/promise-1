@@ -1,5 +1,6 @@
 <?php
-namespace Thenable;
+
+namespace Interop\Async\Promise;
 
 /**
  * Common promise interface that should be implemented by promises and futures.
@@ -14,7 +15,7 @@ interface PromiseInterface
      * @param callable|null $onFulfilled Called with the fulfillment value of the promise.
      * @param callable|null $onRejected Called with the exception used to reject the promise.
      *
-     * @return \Thenable\PromiseInterface
+     * @return \Interop\Async\PromiseInterface
      */
     public function then(callable $onFulfilled = null, callable $onRejected = null);
 
@@ -26,7 +27,7 @@ interface PromiseInterface
      *
      * @param callable $onRejected Called with the exception used to reject the promise.
      *
-     * @return \Thenable\PromiseInterface
+     * @return \Interop\Async\PromiseInterface
      */
     public function except(callable $onRejected);
 
