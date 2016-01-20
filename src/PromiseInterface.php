@@ -15,7 +15,7 @@ interface PromiseInterface
      * @param callable|null $onFulfilled Called with the fulfillment value of the promise.
      * @param callable|null $onRejected Called with the exception used to reject the promise.
      *
-     * @return \Interop\Async\PromiseInterface
+     * @return \Interop\Async\Promise\PromiseInterface
      */
     public function then(callable $onFulfilled = null, callable $onRejected = null);
 
@@ -27,7 +27,7 @@ interface PromiseInterface
      *
      * @param callable $onRejected Called with the exception used to reject the promise.
      *
-     * @return \Interop\Async\PromiseInterface
+     * @return \Interop\Async\Promise\PromiseInterface
      */
     public function except(callable $onRejected);
 
