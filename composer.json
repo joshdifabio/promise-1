@@ -1,11 +1,11 @@
 {
-    "name": "thenable/promise",
+    "name": "async-interop/promise",
     "description": "Common PHP interface for interoperability between promise implementations.",
     "keywords": [
-        "then",
-        "thenable",
         "promise",
-        "future"
+        "future",
+        "async",
+        "interop"
     ],
     "license": "MIT",
     "authors": [
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Thenable\\": "src"
+            "Interop\\Async\\Promise\\": "src"
         }
     }
 }
