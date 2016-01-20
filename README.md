@@ -51,7 +51,7 @@ The recommended way to install is with the [Composer](http://getcomposer.org/) p
 Run the following command to use this library in your project: 
 
 ```bash
-composer require thenable/promise
+composer require async-interop/promise
 ```
 
 You can also manually edit `composer.json` to add this library as a project requirement.
@@ -60,7 +60,7 @@ You can also manually edit `composer.json` to add this library as a project requ
 // composer.json
 {
     "require": {
-        "thenable/promise": "^0.1"
+        "async-interop/promise": "^0.1"
     }
 }
 ```
